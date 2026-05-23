@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    text-align: center;
+    color: black;
+}
+h2{
+    color: blue;
+    font-size: 36px;
+}
+h1{
+color: aqua;
+font-weight: bold;
+background-color: dimgray;
+border-radius: 10px;
+}
+p{
+    color: aqua;
+        font-weight: bold;
+        background-color: dimgray;
+        border-radius: 10px;
+}
+.shop-description::first-letter{
+    font-size: 36px;
+    color: bisque;
+    font-weight: bold;
+}
+.menu-box{
+    width: 420px;
+    background-color: white;
+    border: 3px solid blue;
+    border-radius: 15px;
+    margin: 20px auto;
+    padding: 20px;
+}
+ul{
+    padding: 0;
+}
+ul > li{
+    list-style: none;
+    background-color: white;
+    color: burlywood;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+ul > li:nth-child(3){
+    background-color: cornsilk;
+    color: coral;
+    border: 3px solid;
+}
+ul > li:hover{
+    background-color: bisque;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+button{
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: chocolate;
+}
+
