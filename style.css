@@ -1,0 +1,72 @@
+style{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(192, 157, 92);
+    color: black;
+}
+
+.menu-card{
+    width: 600px;
+    border: 3px solid ;
+    border-radius: 15px;
+    background-color: beige;
+    box-shadow: 0 0 20px rgb(255, 255, 255);
+}
+
+.restaurant-name{
+    font-size: 42px;
+    font-weight: bold;
+    color: rgb(146, 103, 35);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+.tagline{
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(99, 64, 18);
+    text-decoration: underline;
+}
+
+.menu-section{
+    border: 2px solid;
+    box-shadow: 0 0 8px white;
+}
+.section-title{
+    font-size: 26px;
+    text-transform: capitalize;
+    text-decoration: overline;
+}
+
+.dish-name{
+    font-size: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-transform: capitalize;
+}
+
+.dish-name:hover {
+    transform: scale(1.1);
+}
+
+.dish-description{
+    font-size: 15px;
+    line-height: 1.6;
+    text-indent: 30px;
+    color: rgb(149, 47, 19);
+}
+
+.special-offer{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 3px;
+    box-shadow: 0 0 12px;
+
+}
